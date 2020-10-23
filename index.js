@@ -36,5 +36,5 @@ app.use ('/api/events', require('./routes/events'));
 
 //peticiones
 app.listen(process.env.PORT, () => {
-    console.log(`servidor correiendo en puerto ${4000}`)
+    console.log(`servidor correiendo en puerto ${process.env.PORT}`)
 });
